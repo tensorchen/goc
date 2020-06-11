@@ -31,7 +31,7 @@ func New(name string) *Goc {
 	g := &Goc{
 		rootCmd: rootCmd,
 	}
-	return g
+	return xg
 }
 
 type Goc struct {
